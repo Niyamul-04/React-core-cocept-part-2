@@ -1,9 +1,9 @@
 export default function Post({ post }) {
   return (
-    <div>
-      <h4>{post.title}</h4>
+    <div className="card">
+      <h2>{post.title}</h2>
       <p>{post.body}</p>
-      <hr />
+      
     </div>
   );
 }
